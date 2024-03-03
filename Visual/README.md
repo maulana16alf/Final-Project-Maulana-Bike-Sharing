@@ -43,3 +43,9 @@ This dataset is contained with  bike sharing counts aggregated on daily basis. O
 - registered: count of registered users
 - cnt: count of total rental bikes including both casual and registered
 
+## Required Library
+conda create --name main-ds python=3.12.2
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel plotly
+
+## URL to Streamlit
