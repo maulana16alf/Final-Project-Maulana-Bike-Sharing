@@ -49,3 +49,4 @@ conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel plotly
 
 ## URL to Streamlit
+https://final-project-maulana-bike-sharing-b7zvfuenkukq5bcdjsv3zz.streamlit.app/
