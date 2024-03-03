@@ -88,7 +88,7 @@ days_df.describe(include="all")
 #1.   days_df contains in total of 731 rows
 #2.   days_df contains in total of 16 columns
 
-cleaned_days_df = pd.read_csv("cleaned_days.csv")
+cleaned_days_df = pd.read_csv("https://raw.githubusercontent.com/maulana16alf/Final-Project-Maulana-Bike-Sharing/main/Dashboard/cleaned_days.csv")
 #Import the cleaned data sheets as we move on to the exploratory phase of data wrangling
 
 cleaned_days_df.groupby(by=["yr", "season", "mnth"]).agg({
