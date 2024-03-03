@@ -7,7 +7,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-cleaned_days_df = pd.read_csv("cleaned_days.csv")
+cleaned_days_df = pd.read_csv("https://raw.githubusercontent.com/maulana16alf/Final-Project-Maulana-Bike-Sharing/main/Dashboard/cleaned_days.csv")
 cleaned_days_df.head()
 
 cleaned_days_df.groupby(by=["yr", "season", "mnth"]).agg({
